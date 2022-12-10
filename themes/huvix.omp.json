@@ -68,7 +68,7 @@
           "properties": {
             "charged_icon": "\ue22f ",
             "charging_icon": "\ue234 ",
-            "discharging_icon": "\ue231 "
+            "discharging_icon": "\uead0 "
           },
           "style": "powerline",
           "template": "[{{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295]",
